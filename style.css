@@ -1,0 +1,415 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+.txtlink {
+  color: gold;
+}
+.txtlink:hover {
+  color: blue;
+  transition: all 1s;
+}
+.inr {
+  width: 90%;
+  margin: 0 auto;
+}
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* --------ヘッダー----------- */
+.header-inr {
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.header-inr a {
+  color: white;
+  font-family: 'Noto Serif JP';
+}
+.header-list a:hover {
+  opacity: 0.8;
+  color: skyblue;
+  transition: all 0.8s;
+}
+.logo {
+  margin-right: 10px;
+}
+.page-header {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  width: 100%;
+  border-bottom: 1px solid rgba(135, 134, 126, 0.72);
+}
+.header-logo {
+  align-items: center;
+}
+.header-logo a {
+  font-size: 1.5rem;
+}
+.header-list li {
+  display: inline-block;
+  margin: 10px;
+}
+.header-list a {
+  font-size: 0.7rem;
+}
+/* --------ウェルカム----------- */
+.welcome-inr {
+  width: 90%;
+  margin: 0 auto;
+}
+.btn {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 0.5px solid white;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  /* cursor: pointer; */
+}
+.btn:hover {
+  opacity: 0.7;
+}
+.btn:active {
+  position: relative;
+  top: 2px;
+}
+.btn a {
+  padding: 1rem 2rem;
+  color: white;
+  font-family: 'Noto Serif JP';
+  display: block;
+}
+.welcome {
+  background-image: url(../img/top.jpg);
+  background-size: cover;
+  height: 100vh;
+  align-items: center;
+  justify-content: flex-start;
+}
+.welcome-txt {
+  color: white;
+  margin-bottom: 1rem;
+  font-family: 'Noto Serif JP';
+}
+.welcome-txt p {
+  line-height: 1.8;
+}
+.welcome-txt h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+/* -------ブロックチェーン30----------- */
+.txt-center {
+  text-align: center;
+  color: rgb(191, 171, 50);
+  font-family: 'Noto Serif JP';
+  font-size: 2rem;
+  padding-top: 1.5rem;
+}
+  .block-inr {
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+  }
+  .videos {
+    width: 45%;
+  }
+  .txt-box {
+    width: 45%;
+  }
+  .txt-box h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .txt-box p {
+    line-height: 1.5;
+    font-family: 'Noto Serif JP';
+  }
+  /* -------スマートコントラクト20----------- */
+  /* .block-inr > h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem; */
+    .txt-box2 h2 {
+      font-size: 2rem;
+    }
+    .txt-box2 p {
+      line-height: 1.5;
+      margin-bottom: 1rem;
+      font-family: 'Noto Serif JP';
+    }
+    .smart-inr {
+      width: 90%;
+      margin: 0 auto;
+      padding: 40px 0;
+    }
+    .content {
+      width: 25%;
+      box-sizing: border-box;
+      padding: 10px;
+      font-family: 'Noto Serif JP';
+      margin-top: 50px;
+    }
+    .content p {
+      margin:30px 0;
+      line-height: 1.5;
+    }
+    .content h3 {
+      color: darkblue;
+      font-size: 1.5rem;
+    }
+    .contents {
+      justify-content: space-between;
+      align-items: center;
+    }
+    .smart {
+      background-color: #f6f6f6;
+    }
+    .cse-inr {
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+      padding: 40px;
+    }
+    .howto {
+      width: 70%;
+      box-shadow: 1px 1px 10px gray;
+    }
+    .howto:hover {
+      transform: scale(1.01,1.01);
+      transition: all 0.5s;
+    }
+    /* -------CSE pos詳細----------- */
+    .csepos {
+      background-color: #f6f6f6;
+      font-family: 'Noto Serif JP';
+    }
+    table {
+      width: 70%;
+      margin: 0 auto!important;
+      border: 2px solid gray!important;
+      box-shadow: 0 0 5px gray;
+    }
+    tr, td, th {
+      border: 1px solid gray!important;
+      border-collapse: collapse;
+      text-align: left;
+      padding: 20px!important;
+    }
+    th {
+      width: 30%;
+      background-color: rgba(34, 194, 245, 0.3)!important;
+      color: white;
+      text-shadow: 1px 1px 5px gray;
+    }
+    td {
+      color: darkblue;
+      background-color!important;
+      text-shadow: 0 0 2px gray;
+    }
+    .afi-txt {
+      padding: 20px 0px;
+      font-size: 1.2rem;
+      width: 60%;
+      text-align: left;
+      margin: 0 auto;
+    }
+    .afi-txt {
+      text-shadow: 1px 1px 1px gray;
+    }
+    .afi-txt span {
+      color: darkblue;
+    }
+    .txt {
+      margin-top: 2rem;
+      line-height: 1.6rem;
+    }
+    .gold {
+      font-size: 1.5rem;
+      line-height: 2rem;
+      color: gold!important;
+    }
+    /* O-wifi */
+    .owifi {
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 auto;
+      width: 100%;
+    }
+      .owifi-txt {
+        font-family: 'Noto Serif JP';
+        width: 60%;
+        font-size: 1.3rem;
+        text-align: left;
+        line-height: 2rem;
+      }
+      .wifi-img {
+        width: 30%;
+      }
+      .wifi-img img {
+        padding: 5px;
+      }
+
+      .owifi-btn {
+        margin-top: 50px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 1px solid darkblue !important;
+      }
+      .owifi-btn a {
+      color: darkblue;
+      }
+      /* t登録ボタン */
+      #signup a {
+        color: darkblue;
+        font-size: 3rem;
+        text-shadow: 1px 1px 5px gray;
+        position: relative;
+      }
+      #signup :hover {
+        opacity: 0.7;
+      }
+      #signup {
+        padding: 50px 0;
+      }
+      #signup a::before {
+        position: absolute;
+        content: '>';
+        left: -50px;
+      }
+      #signup a::after {
+        position: absolute;
+        content: '<';
+        right: -50px;
+      }
+      /* ふったー */
+      .page-footer p {
+        text-align: center;
+        color: white;
+      }
+      .page-footer {
+        background-color: rgba(57, 119, 153, 0.71);
+        padding: 30px;
+      }
+      .btn-fixed {
+        position: fixed;
+        bottom: 2px;
+        right: 20px;
+      }
+      .btn-fixed a {
+        padding: 5px;
+      }
+
+/* レスポンシブ */
+@media screen and (max-width:479px){
+  /* へっだー */
+  .header-logo a {
+    display: none;
+  }
+
+  .header-list a {
+    font-size: 0.2rem;
+    margin: 2px;
+  }
+
+  .header-list li:nth-child(1) {
+    display: none;
+  }
+  .header-list li:nth-child(2) {
+    display: none;
+  }
+  .header-list li:nth-child(3) {
+    display: none;
+  }
+  .header-list li:nth-child(4) {
+    display: none;
+  }
+  .btn {
+    width: 100%;
+  }
+  /* ビデオ */
+  .videos {
+    width: 90%;
+    margin: 0 auto;
+  }
+  iframe {
+    width: 100%;
+}
+  .txt-box {
+    width: 90%;
+    margin: auto;
+  }
+  .txt-box h2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  /* スマコン */
+  .content {
+    width: 100%;
+    margin-top: 5px;
+  }
+  .txt-box2 p {
+    text-align: center;
+  }
+  .howto {
+    width: 100%;
+  }
+  .cse-inr {
+    width: 100%;
+    padding: 0px;
+  }
+  table {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .txt-center {
+    margin-bottom: 10px;
+  }
+  .afi-txt {
+    font-size: 0.8rem;
+    width: 90%;
+    letter-spacing: normal;
+  }
+  .wifi-img {
+    order: -1;
+    width: 100%;
+  }
+  .owifi-txt {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #signup a {
+    font-size: 1.5rem;
+  }
+  .page-footer {
+    padding: 10px;
+  }
+  .page-footer p {
+    font-size: 0.5rem;
+  }
+  .btn-fixed {
+    width: 20%;
+  }
+  .btn-fixed img {
+    display: none;
+  }
+}
+
+@media screen and (max-width:1150px) {
+  iframe {
+    width: 100%;
+  }
+  .afi-txt {
+    width: 100%;
+  }
+  table {
+    width: 100%;
+  }
+  .wifi-img img {
+    width: 80%;
+  }
+}
